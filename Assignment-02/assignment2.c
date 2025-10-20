@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-int main(void)
-{
-  int integer = 5;
-  float floatvar = 3.14;
-  char string[] = "Hello, World!";
+int a = 5;
+float b = 6.0;
+char c[] = "Hello, World!";
 
-  printf("%d is an integer!\n", integer);
-  printf("%f is a float!\n", floatvar);
-  printf("%s is a char!\n", string);
-
+int main(){
+	printf("%d is an integer\n", a);
+	printf("%f is a float\n", b);
+	printf("%s is a char!\n", c);
+	return 0;
 }
