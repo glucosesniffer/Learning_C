@@ -1,17 +1,13 @@
 #include <stdio.h>
 
-int main(void)
-{
-  //initialize vars
-  char first[20];
-  char last[20];
+char first[20];
+char second[20];
 
-  //prompt user to input first and last name and use scanf() to store those to the initiliazed vars
-  printf("Enter your first name: ");
-  scanf("%s", &first);
-  printf("Enter your last name: ");
-  scanf("%s", &last);
-
-  //print the welcome message!
-  printf("Hello %s %s!\n", first, last);
+int main(){
+    printf("Enter your first Name:");
+    scanf("%s", &first);
+    printf("Enter your Second Name:");
+    scanf("%s", &second);
+    printf("Hello! %s %s\n",first, second);
+    return 0;
 }
