@@ -3,22 +3,19 @@
 
 int main(void)
 {
-  
-  //initialize our vars and get values for them
-  int numerator, denominator;
-  printf("Enter a numerator: ");
-  scanf("%d", &numerator);
-  printf("Enter a denominator: ");
-  scanf("%d", &denominator);
 
-  if (numerator % denominator == 0)
-  {
-  	printf("There is NOT a remainder!");
-  }
-  else
-  {
-  	printf("There is a remainder!");
-  }
+int numerator, denominator;
+
+printf("enter numerator:");
+scanf("%d", &numerator);
+printf("enter a denominator:");
+scanf("%d", &denominator);
+if(numerator % denominator == 0){
+    printf("no remainder");
+}
+else{
+    printf("remainder\n");
+}
 
   return 0;
 }
